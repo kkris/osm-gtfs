@@ -5,5 +5,4 @@
 build
 
 *.pbf
-*.zip
 generated/

@@ -19,5 +19,5 @@ $ ./gradlew :agency:lup:run  --args="--schedule-path $(pwd)/agency/lup/src/main/
 # check generated/lup for the complete feed
 
 # create the final GTFS feed as zip file
-$ zip $(pwd)/generated/lup/lup-gtfs.zip $(pwd)/generated/lup/gtfs/*
+$ zip -j $(pwd)/feeds/lup-gtfs.zip $(pwd)/generated/lup/gtfs/*
 ```
